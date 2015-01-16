@@ -19,3 +19,16 @@ class Skeleton(Enemy):
 class Humongous Spider(Enemy):
     def __init__(self):
         super().__init__(name="Humongous Spider", hp=20, damage=15)    
+
+class Bill The Murauder (Enemy):
+    def __init__(self):
+        super().__init__(name="Bill The Murauder", hp=15, damage=10)
+        
+
+class Stephen The Outcast(Enemy):
+    def __init__(self):
+        super().__init__(name="Stephen The Outcast", hp=15, damage=10)
+        
+class Error(Enemy):
+    def __init__(self):
+        super().__init__(name="Error", hp=100, damage=-10)        
