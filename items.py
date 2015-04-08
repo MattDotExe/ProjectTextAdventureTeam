@@ -37,16 +37,16 @@ class Sword(Weapon):
                          value=10,
                          damage=10)
                          
-class Needed(Weapon):
+class Wooden Stick(Weapon):
     def __init__(self):
-        super().__init__(name="Needed",
-                         description="",
-                         value=0,
-                         damage=0)
+        super().__init__(name="Wooden Stick",
+                         description="A Simple Wooden stick that you broke off from a tree. You recall as a child having imaginary fights with a friend or two everytime you look at this stick. -Made for School Project",
+                         value=5,
+                         damage=7)
 
 class Mace(Weapon):
     def __init__(self):
         super().__init__(name="Mace",
                          description="Back in the War of the Village, this very rusty Mace was used to fight off the Skeletons from The Ruins. Most people think that weapons like this should be with the soilders at the memorial, but the Weaponsmith insists that if something like that were to happen again, people would want them to be here.",
-                         value=10,
+                         value=8,
                          damage=12)
